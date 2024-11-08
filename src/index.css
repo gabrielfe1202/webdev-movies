@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+  border-bottom: 2px solid white;
+}
+
+.filmesscrollbar::-webkit-scrollbar {
+  height: 5px;  
+}
+ 
+.filmesscrollbar::-webkit-scrollbar-thumb {
+  background: #256EFF;
+  border-radius: 20px;  
+}
+
+.filmesscrollbar::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;  
+}
